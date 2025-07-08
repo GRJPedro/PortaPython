@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="José Pedro Gómez Rodríguez">
+    <meta name="description" content="CV de Pedro Gómez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Python, Bootstrap, Geografo, SIG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Desarrollo Python</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/front.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!--Bootstrap para modal-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Bootstrap para modal-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/briefcase-fill.svg" width="35" alt="Logo de la página web">
+              </a>
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color:rgb(55,118,171)" aria-current="page" href="#bdpedro">Desarrollo Python</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+
+        <!--encabezado con imagen y titulo -->
+        
+        <section id="bdpedro" class="container-fuid">
+          <div class="row head" style="text-align: center;">
+             <div class="head-texto col-9 col-mg-9">
+               <h1>Desarrollo Python</h1>
+               <p>Como Desarrollador Junior Python con un solido entendimiento<br>
+                y aplicación del paradigma de Programación Orientada a Objetos (POO),<br>
+                 ofrezco servicios de desarrollo de software centrados en el<br>
+                Análisis de Datos y Análisis Espacial por medio de<br>
+                Sistemas de Información Geográfica (SIG)<br>
+               </p>
+             </div>
+          </div>
+        </section>
+
+        <!--parte donde estan los iconos con los puntos que hago-->
+
+        <section id="productos" class="container-fuid">
+          <div class="row botones d-flex justify-content-evenly">
+            <div class="boton col-12 col-md-2">
+              <a href="#pyanalisis">
+              <i class="bi bi-diagram-2"></i>
+              <p class="botones-titulo">Analisis de Software</p>
+            </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#pypoo">
+              <i class="bi bi-cup-hot"></i>
+              <p class="botones-titulo">Programación en Python (POO)</p>
+              </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#pybd">
+              <i class="bi bi-server"></i>
+              <p class="botones-titulo">Bases de Datos</p>
+              </a>
+            </div>  
+             <div class="boton col-12 col-md-2">
+              <a href="#pygit">
+              <i class="bi bi-git"></i>
+              <p class="botones-titulo">Control de Versiones</p>
+              </a>
+             </div>
+             <div class="boton col-12 col-md-2">
+              <a href="#pydatan">
+              <i class="bi bi-graph-up"></i>
+              <p class="botones-titulo">Análisis de Datos</p>
+              </a>
+            </div>  
+             <div class="boton col-12 col-md-2">
+              <a href="#pysig">
+              <i class="bi bi-geo-alt-fill"></i>
+              <p class="botones-titulo">Desarrollo en SIG</p>
+              </a>
+             </div>
+          </div>
+        </section>
+
+<!--Sección Análisis de Software-->
+        <section id="pyanalisis" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-analisis">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Análisis de Software</h1>
+              <p>Estas son las principales acciones que realizo:
+              </p>
+              <ul>
+                <li>Recopilación y Levantamiento de Requisitos</li>
+                <li>Documentación Clara y Modelado Visual</li>
+                <li>Gestión de Comunicación Inter-equipo</li>
+                <li>Validación y Soporte de Pruebas</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Analista de Software</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Recopilación y Levantamiento de Requisitos</h4>
+                      <p>Mi experiencia trabajando en sistemas no solo radica en la codificación de algoritmos, 
+                        sino también en la comprensión profunda de las necesidades del negocio y con ello la traducción de 
+                        estas necesidades en soluciones tecnológicas, sirviendo como puente que conecta la visión del cliente 
+                        y la implementación técnica.<br><br>
+                        Ofreciendo los siguientes servicios:
+                      </p>
+                      <ul> 
+                        <li>Recopilación y Levantamiento de Requerimientos
+                        </li>
+                        <p></p>
+                        <p>Realizo entrevistas y levanto requerimientos, colaborando con el cliente para desarrollar
+                           la idea de sistema que tiene en mente y que necesita, analizo los requerimientos y defino los
+                           stakeholders que se deberán cumplir para cumplir con los objetivos de su negocio
+                        </p>
+                      </ul>
+                     
+                      <img src="imagenes/modjava1_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Documentación Clara y Modelado Visual</h4>
+                      <p>Traslado los requerimientos en Documentos estructurados y comprensibles, tanto para el equipo de desarrollo
+                        como para el cliente, dentro de los que se encuentran:
+                      </p>
+                      <ul>
+                        <li>Casos de Uso
+                        </li>
+                        <li>Historias de Usuario
+                        </li>
+                        <li>Especificaciones Funcionales
+                        </li>
+                        <li>Diagramas de Flujo, Diagramas NS, Pseudocodigo
+                        </li>
+                         <img src="imagenes/Modjava1_2.png">
+                        <li>Diseño Lógico de Soluciones y Flujos de Experiencia
+                        </li>
+                        <p>Dentro mis servicios como analista propongo estructuras lógicas de soluciones
+                        defino la arquitectura funcional y los flujos de experiencia de usuario (UX), creando prototipos conceptuales que visualizan 
+                        cómo el usuario interactuará con el software.
+                      </p>
+                      <img src="imagenes/Modjava1_4.png">
+                      </ul>
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Gestión de Comunicación Inter-equipo</h4>
+                      <p>Dentro de mi experiencia trabajando en equipos de desarrollo he actuado como enlace central entre los equipos de desarrollo y calidad,  
+                        facilitando reuniones, resolviendo dudas y asegurando que todos los actores del proyecto estén en la misma sintonía.
+                      </p>
+                     <img src="imagenes/Modjava1_5.png">
+                    </div> 
+
+                     <div class="nodal-seccion">
+                      <h4>Validación y Soporte de Pruebas</h4>
+                      <p>Colaboro con el equipo de calidad en definir y realizar escenarios y casos de prueba, asegurando que el producto final cumpla con los 
+                        requisitos y expectativas inicialmente definidos.
+                      </p>
+                     <img src="imagenes/Modjava1_3.png">
+                    </div> 
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion Dominio de Python POO-->
+        <section id="pypoo"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Programación Python (POO)</h1>
+              <p>Estas son las principales acciones que realizo:
+              </p>
+              <ul>
+                <li>Resuelvo problemas mediante la programación</li>
+                <li>Programación Orientada a Objetos</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bdr">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="bdr">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Programación Orientada a Objetos</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Resuelvo problemas mediante la programación</h4>
+                      <p>En mi experiencia como desarrollador aplico las siguientes fases para resolver problemas 
+                        especificos mediante la programación </p>
+                      <ul>
+                        <li>Defino el problema
+                        </li>
+                        <P></P>
+                        <p>Problematizo las necesidades del cliente de manera clara y precisa, para conocer lo que deseo que 
+                          realice la computadora
+                        </p>
+                        <li>Analizo el problema
+                        </li>
+                        <p>Una vez comprendido lo que deseo que haga la computadora, defino:
+                        </p>
+                        <ul>
+                          <li>Los datos de entrada</li>
+                          <li>Cual es la información que deseo producir</li>
+                          <li>Los metodos y formulas que se necesitan para producir esta información</li>
+                        </ul>
+                        <img src="imagenes/Modjava2_1.png">
+                        <li>Diseño el Algoritmo
+                        </li>
+                        <P></P>
+                        <p>Como guia grafica diseño un algoritmo que me ayude a codificar
+                        </p>
+                        <img src="imagenes/Modjava2_2.png">
+                        <li>Codifico
+                        </li>
+                        <P></P>
+                        <p>Mediante el lenguaje de programación Python escribo la solucion del programa siguiendo los pasos
+                          de mi algoritmo previamente diseñado, mediante una serie de instrucciones detalladas, realizando 
+                          documentación interna
+                        </p>
+                        <img src="imagenes/Modjava2_3.png">
+                        <li>Pruebo y Depuro
+                        </li>
+                        <P></P>
+                        <p>Teniendo en cuenta que los errores existen y aumentan con la complejidad del problema, identifico 
+                          y elimino estos errores, para dar paso a una solución sin errores
+                        </p>
+                        <img src="imagenes/Modjava2_4.png">
+                      </ul>
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Programación Orientada a Objetos</h4>
+                      <p>Como desarrollador me formé aplciando el paradigma de Programación Orientada a Objetos, por lo cual cuento con la 
+                        capacidad para modelar problemas del mundo real en clases y objetos bien definidos.
+                      </p>
+                      <p></p>
+                      <p>aplicando y comprendiendo el: </p>
+                      <ul>
+                        <li>Encapsulamiento
+                        </li>
+                        <li>Herencia
+                        </li>
+                        <li>Poliformismo
+                        </li>
+                        <li>Abstracción
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modjava2_6.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-poo">
+            </div>
+          </div>
+        </section>
+
+        <!--Sección Base de Datos-->
+        <section id="pybd" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-bd">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Bases de Datos</h1>
+              <p>Estas son algunas de las principales acciones que realizo:
+              </p>
+              <ul>
+                <li>Analisis de Bases de Datos</li>
+                <li>Bases de Datos Relacionales</li>
+                <li>Servidores y Gestores de BD</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bdg">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="bdg">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Bases de Datos</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Análisis de Bases de Datos</h4>
+                      <p>Como analista de bases de datos, me especializo en transformar vastos volúmenes de datos
+                         crudos en información estructurada, coherente y accionable, mediante los siguientes productos:</p>
+                      <ul>
+                        <li>Estimación del tamaño de la Base de Datos
+                        </li>
+                        <p>Identifico los requisitos de almacenamiento, tipo y cantidad de datos, así como una estimación 
+                          del crecimiento de datos, calculando su tamaño inicial y el crecimiento estimado segun el tráfico 
+                          y el número de usuarios.
+                        </p>
+                        <li>Selección del Servidor
+                        </li>
+                        <p>Identifico los requerimientos, evaluo las opciones de infraestructura, costos y presupuesto</p>
+                        <li>Selección de Manejador de Base de Datos
+                        </li>
+                      </ul>
+                      <img src="imagenes/Modjava3_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Bases de Datos Relacionales</h4>
+                      <p>Como desarrollador python jr., ofrezco mi experiencia para diseñar, optimizar y gestionar tu información, 
+                        asegurando que tus datos sean un producto confiable y de alto rendimiento.</p>
+                      <ul>
+                        <li>Diseño y Modelo Bases de Datos Relacionales
+                        </li>
+                        <li>Identifico Entidades y Atributos
+                        </li>
+                        <li>Establezco Relaciones y Cardinalidad
+                        </li>
+                        <li>Creo el Modelo Entidad-Relación (MER)
+                        </li>
+                        <li>Normalizo y Defino Llaves
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modjava3_2.png">
+                    </div>  
+
+                    <div class="nodal-seccion">
+                      <h4>Servidores y Gestores de Bases de Datos</h4>
+                      <p>Estos son los SGBD que uso:</p>
+                      <ul>
+                        <li>SQL
+                        </li>
+                        <p>PostgreSQL y MySQL</p>
+                        <li>No SQL
+                        </li>
+                        <p>MongoDB</p>
+                      </ul>
+                     <img src="imagenes/Modjava3_3.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion Control de Versiones-->
+        <section id="pygit"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Gestor de Versiones</h1>
+              <p>Estas son las herramientas que uso:
+              </p>
+              <ul>
+                <li>Git (Git Bash)</li>
+                <li>GitHub</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#gite">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="gite">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Gestores de Versiones</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Git y GitHub</h4>
+                      <p>Dentro de mi experiencia trabajando como desarrollador tanto de manera independiente 
+                        como trabajando en equipos, he utilizado Git (GitBash) y GitHub para optimizar los flujos
+                        de trabajo de desarrollo facilitando la integración de código fluida y dando un seguimiento 
+                        de cambios transparente y ordenada  </p>
+                      <img src="imagenes/Modjava4_1.png">
+                      </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-git">
+            </div>
+          </div>
+        </section>
+
+        <!--Sección Análisis de Datos-->
+        <section id="pydatan" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-datana">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Análisis de Datos</h1>
+              <p>Estas son algunas de las principales acciones que realizo:
+              </p>
+              <ul>
+                <li>Análisis Estadísticos Descriptivo, Modelado y Regresiones</li>
+                <li>Aprendizaje Supervisado y No Supervisado</li>
+                <li>Web Scrapping</li>
+                <li>Autocorrelación y Clustering geoespacial</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#pyana">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="pyana">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Análisis de Datos</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Análisis de Datos Estadísticos con Python</h4>
+                      <p>Ofrezco mis servicios análisis de datos con python, usando mis conocimientos en 
+                        estadística descriptiva, inferencial y técnicas de Machine Learning. Estos servicios están 
+                        orientados a transformar datos en conocimiento para la toma de decisiones, visualización e 
+                        interpretación.
+                      </p>
+                      <h5>Productos y Servicios</h5>
+                      <p></p>
+                      <p>1. Análisis Estadístico Descriptivo</p>
+                      <p></p>
+                      <p>Para exploración inicial, entender el comportamiento de los datos y su presentación</p>
+                      <ul>
+                        <li>Cálculo de medidas estadisticas: media, mediana, cuantiles, varianza, desviación estándar
+                        </li>
+                        <img src="imagenes/modpy_1.png">
+                        <li>Análisis de correlación entre variables
+                        </li>
+                        <img src="imagenes/modpy_2.png">
+                        <li>Gráficas: histogramas, boxplots, heatmaps, pairplots
+                        </li>
+                        <img src="imagenes/modpy_3.png">
+                      </ul>
+                      
+                      <p>2. Modelado Estadístico y Regresiones</p>
+                      <p></p>
+                      <p>Estimación y predicción de relaciones entre variables</p>
+                      <ul>
+                        <li>Regresión lineal simple y multiple
+                        </li>
+                        <img src="imagenes/modpy_4.png">
+                        <li>Evaluación de supuestos y significancia
+                        </li>
+                        <li>Regularización: Lasso y Ridge
+                        </li>
+                        <img src="imagenes/modpy_5.png">
+                        <li>Validación cruzada (cross-validation)
+                        </li>
+                        <img src="imagenes/modpy_6.png">
+                      </ul>
+                    
+                      <p>3. Clasificación con Aprendizaje Supervisado</p>
+                      <p></p>
+                      <p>Para predecir categorias, segmentación de mercado, evaluación de riesgos, etc.</p>
+                      <ul>
+                        <li>Modelos: Regresión logística, K-Nearest Neighbors(KNN)
+                        </li>
+                        <img src="imagenes/modpy_7.png">
+                        <li>Evaluación de modelos: Accuracy, Matriz de Confusión, ROC, AUC.
+                        </li>
+                        <img src="imagenes/modpy_8.png">
+                        <li>Detección y manejo de "overfitting/underfitting"
+                        </li>
+                        <li>Optimización con randomized search, grid search
+                        </li>
+                      </ul>
+                      <p>4. Preprocesamiento y Automatización con Pipelines</p>
+                      <p></p>
+                      <p>Para preparar datos reales antes del modelado, y asegurar reproducibilidad.</p>
+                      <ul>
+                        <li>One-Hot Encoding para variables categóricas
+                        </li>
+                        <img src="imagenes/modpy_9.png">
+                        <li>Imputación de datos faltantes
+                        </li>
+                        <li>Automatización de flujos con pipelines de scikit-learn
+                        </li>
+                      </ul>
+                      <p>5. Análisis con Aprendizaje No Supervisado</p>
+                      <p></p>
+                      <p>Para descubrir patrones sin etiquetas previas, agrupamiento de observaciones 
+                        o reducción de complejidad</p>
+                      <ul>
+                        <li>Clustering: K-Means, Clustering Jerárquico, Gaussian Mixture Models
+                        </li>
+                         <img src="imagenes/modpy_10.png">
+                        <li>Reducción de dimensionalidad: PCA, t-SNE
+                        </li>
+                         <img src="imagenes/modpy_11.png">
+                        <li>Visualización y elección óptima de número de clusters/componentes
+                        </li>
+                         <img src="imagenes/modpy_12.png">
+                        <li>Aplicación de CAPM para análisis financiero
+                        </li>
+                      </ul>
+                      <p>6. Scraping y Recolección de Datos</p>
+                      <p></p>
+                      <p>Automatización de extracción de datos desde la web para alimentar procesos 
+                        de análisis</p>
+                      <ul>
+                        <li>Extracción de datos de páginas web (BeautifulSoup)
+                        </li>
+                        <li>Limpieza y estructuración de datos
+                        </li>
+                      </ul>
+                      <img src="imagenes/modpy_13.png">
+                      <p></p>
+                      <h5>Librerías y extensiones para el análisis estadístico</h5>
+                      <p></p>
+                      <ul style="list-style-type: none;">
+                        <li>- pandas
+                        </li>
+                        <li>- numpy
+                        </li>
+                        <li>- seaborn
+                        </li>
+                        <li>- sklearn
+                        </li>
+                        <li>- scipy
+                        </li>
+                        <li>- statsmodels
+                        </li>
+                        <li>- matplotlib
+                        </li>
+                        <li>- logging
+                        </li>
+                      </ul>
+
+                      <!--geograficos-->
+
+                      <h4 style="padding: 50px 30px 30px 30px;">Análisis de Datos Geoespaciales con Python</h4>
+                      <p>Ofrezco mis servicios análisis de datos geoespaciales con python, dirigido a descubrir patrones
+                        espaciales, segmentación espacial y regionalización
+                      </p>
+                      <h5>Técnicas y herramientas</h5>
+                      <p></p>
+                      <p>1. Autocorrelación espacial (Global/Local Moran's I y Getis-Ord Gi)</p>
+                      <p></p>
+                      <ul>
+                        <li>Identificación estadística de patrones de agrupamiento espacial,
+                           detectando zonas con valores similares o excepcionales 
+                        </li>
+                      </ul>
+                      <img src="imagenes/modpy_5_b_1.png">
+                      <p>2. Clustering geoespacial</p>
+                      <p></p>
+                      <ul>
+                        <li>K-Means 
+                        </li>
+                      </ul>
+                      <img src="imagenes/modpy_5_b_2.png">
+                      <ul>
+                        <li>Clustering jerárquico espacial (AHC) 
+                        </li>
+                      </ul>
+                      <img src="imagenes/modpy_5_b_3.png">
+                      <p>3. Regionalización continua</p>
+                      <p></p>
+                      <ul>
+                        <li>Clustering aglomerativo
+                        </li>
+                      </ul>
+                      <img src="imagenes/modpy_5_b_4.png">
+                      <h5>Librerías y extensiones para el análisis geoespacial</h5>
+                      <p></p>
+                      <ul style="list-style-type: none;">
+                        <li>- PyQGIS
+                        </li>
+                        <li>- ArcPy
+                        </li>
+                        <li>- seaborn
+                        </li>
+                        <li>- pandas
+                        </li>
+                        <li>- geopandas
+                        </li>
+                        <li>- numpy
+                        </li>
+                        <li>- matplotlib
+                        </li>
+                        <li>- sklearn
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion Desarrollo SIG-->
+        <section id="pysig"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Desarrollo en SIG</h1>
+              <p>Estas son mis principales productos desarrollando en Sistemas de Información Geográfica
+              </p>
+              <ul>
+                <li>Herramientas Personalizadas (Scripts y Add-ons)</li>
+                <li>Automatización de procesos geoespaciales</li>
+                <li>Procesamiento y análisis espacial automatizado</li>
+                <li>Generación automatica de salidas (mapas, reportes, tablas)</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#devsig">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal Desarrollo en SIG-->
+            <div class="modal" id="devsig">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Desarrollo en Sistemas de Información Geográfica</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Herramientas Personalizadas (Scripts y Add-ons)</h4>
+                      <p>Con la base y lógica de desarrollo en python, aplico estos conocimientos en metodos e información geografica, 
+                        ofreciendo:
+                      </p>
+                      <ul>
+                        <li>Desarrollo de scripts en Python para automatizar tareas repetitivas 
+                        </li>
+                        <p>(geoprocesos, limpieza de datos, reproyecciones, etc.)
+                        </p>
+                        <li>Creación de herramientas personalizadas y plugins
+                        </li>
+                        <p>(desarrollo herramientas a la medida para reducir los procesos)</p>
+                      </ul>
+                      <img src="imagenes/devsig_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Automatización de Procesos Geoespaciales</h4>
+                      <p>Análizo los requerimientos para productos, definiendo los insumos, metodos y resultados esperados, 
+                         ofreciendo estos productos:</p>
+                      <ul>
+                        <li>Automatización de flujos de trabajo: análisis espacial, generación de mapas, actualización de capas.
+                        </li>
+                        <li>Integración con bases de datos espaciales (PostGIS) 
+                        </li>
+                      </ul>
+                     <img src="imagenes/devsig_2.png">
+                    </div>  
+
+                    <div class="nodal-seccion">
+                      <h4>Procesamiento y Análisis Espacial Automatizado</h4>
+                      <p>Análizo los requerimientos, desglozo la problematica y defino los actores, insumos, métodos y productos, ofreciendo:
+                      </p>
+                      <ul>
+                        <li>Herramientas de análisis espacial personalizado: buffers, overlays, análisis de redes, zonificación, etc.
+                        </li>
+                        <li>Análisis Multicriterio
+                        </li>
+                      </ul>
+                     <img src="imagenes/devsig_3.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Generación Automática de Salidas</h4>
+                      <p>Se diseñan e implementan métodos para automatizar productos como: </p>
+                      <ul>
+                        <li>Exportación masiva de mapas (PDF, PNG)
+                        </li>
+                        <li>Reportes automatizados (HTML, Excel, PDF) con resultados del análisis espacial
+                        </li>
+                      </ul>
+                     <img src="imagenes/devsig_4.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-sig">
+            </div>
+          </div>
+        </section>
+
+
+       <!--sección footer-->
+
+        <section id="contacto" class="container-fuid">
+          <div class= "row footer d-flex flex-column align-items-center justify-content-center">
+            <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://x.com/pedrogo62967054?s=11" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://github.com/GRJPedro" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/josé-pedro-gómez-rodríguez-61851566" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/pedrogomez_geo/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto:pedrogomez.geo@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+            <div class="derechos-de-autor">Creado Pedro Gómez (2025) &#169;</div>
+          </div>
+        </section>
+  </body>
+</html>
